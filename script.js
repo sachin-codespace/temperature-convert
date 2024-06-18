@@ -12,7 +12,7 @@ function convert() {
             document.querySelector(".fahrenheit").value = `${ctf.toFixed(2)}℉`;
         } else if (fahrenheit !== "") {
             const ftc = (parseFloat(fahrenheit) - 32) * 5 / 9;
-            document.querySelector(".celsius").value = `${ftc.toFixed(2)}℉`;
+            document.querySelector(".celsius").value = `${ftc.toFixed(2)}°C`;
         }
     }
     else{
